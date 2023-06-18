@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+.bigBox{
+    width: 80%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    color: white;
+    
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+    /* flex-grow: 1; */
+}
+
+.yellow{
+    background-color: yellow;
+    /* flex-grow: 2; */
+}
+/* .bigBox::before{
+    content: '';
+    background-color: purple;
+    height: 100%;
+    width: 100px;
+
+} */
