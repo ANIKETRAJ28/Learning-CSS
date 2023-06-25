@@ -16,6 +16,15 @@ body{
     --secondary-color: black;
 }
 
+.dark{
+    --primary-color: red;
+    --secondary-color: purple;
+}
+.light{
+    --primary-color: white;
+    --secondary-color: black;
+}
+
 /*================ 
 General Layout
 ==================*/
@@ -83,7 +92,7 @@ header img{
     height: 1.45rem; 
 }
 
-header form{
+.headerForm{
     background-color: white;
     align-items: center;
     padding: 0.5rem;
@@ -113,6 +122,9 @@ header form{
     color: black;
     text-decoration: none;
 }
+.mobileButtons{
+    display: none;
+}
 
 /*===============
     Sub Header 
@@ -123,6 +135,7 @@ header form{
     justify-content: center;
     font-weight: 500;
     padding: 1rem 0;
+    text-align: center;
 }
 
 .subHeader > * {
@@ -154,6 +167,7 @@ header form{
 .bigNewsImageContainer{
     height: inherit;
     width: 55%;
+    background-color: grey;
     background-image: url("https://t2.genius.com/unsafe/175x179/https%3A%2F%2Fimages.genius.com%2F4f993f90cc011434715075f39c6ac4be.973x1000x1.png");
     background-position: center;
     background-size: contain;
@@ -163,6 +177,7 @@ header form{
 /*====================
     Small News Section
 ======================*/
+
 .smallNews{
     padding: 0px 2rem;
     position: relative;
@@ -328,3 +343,7 @@ header form{
 .videoSectionFoot{
     justify-content: center;
 }
+
+/* 
+
+*/

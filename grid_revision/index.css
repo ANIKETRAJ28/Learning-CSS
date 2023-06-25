@@ -1,0 +1,64 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 5em 0 0 0;
+    padding: 0;
+    background-color: grey;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    border: 10px solid black;
+    gap: 1rem;
+}
+
+.item{
+    padding: 0.5rem;
+    background-color: red;
+    color: white;
+    border: 5px solid pink;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 30%;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas: 'item1 item2 item2'
+                          'item3 item3 item3'  
+    ;
+}
+/* 
+    grid-column-start
+    grid-column-end
+*/
+.item-1{
+    grid-area: item1;
+    background-color: green;
+}
+.item-2{
+    /* grid-column-start: 1;
+    grid-column-end:3 ; */
+    grid-area: item2;
+    background-color: blue;
+    /* grid-row: 2/4; */
+
+}
+.item-3{
+    grid-area: item3;
+    /* grid-column-start: 2 ;
+    grid-column-end: 4; */
+    /* grid-column: 2 / 4; */
+    /* grid-row-start: 3;
+    grid-row-end: 5; */
+    /* grid-row: 3/ 5; */
+    /* row-start col start | row end | col end */
+    /* grid-area: 3 / 2/ 5/ 4; */
+    /* z-index: 10; */
+}
+.item-4{
+    /* grid-column: 2/ 3;
+    grid-row: 3/ 4;
+    background-color: green; */
+}
