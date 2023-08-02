@@ -127,7 +127,6 @@ header form{
 .smallNews{
     padding: 0 2rem;
     border-right: 2px solid black;
-    align-items: center;
 }
 .smallNews:last-child{
     border-right: none;
