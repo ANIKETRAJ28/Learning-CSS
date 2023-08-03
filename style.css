@@ -125,19 +125,42 @@ header form{
 ========================*/
 
 .smallNews{
-    padding: 0 2rem;
-    border-right: 2px solid black;
+    height: 10rem;
 }
-.smallNews:last-child{
+.smallNewsContent{
+    width: 18rem;
+    border-right: 2px solid black;
+    padding: 0px 2rem;
+}
+.smallNewsContent:last-child{
     border-right: none;
 }
-.smallNews > h3{
-    margin-bottom: 10rem;
+.smallNewsUpperContent{
+    height: 15rem;
+}
+.smallNewsLowerContent{
+
 }
 .smallNewsImage{
-    background-image: url("https://t2.genius.com/unsafe/114x114/https%3A%2F%2Fimages.genius.com%2Fb31e009a5699acd7ab78d02c0f70ffba.3000x3000x1.jpg");
+    height: 8rem;
+}
+#SNI1{
+    background-image: url("https://t2.genius.com/unsafe/315x177/https%3A%2F%2Fimages.genius.com%2Fd0a2820083c087269b88dc730a574ada.1920x1080x10.gif");
     background-position: center;
     background-size: contain;
-    height: 7rem;
-    width: 100%;
+}
+#SNI2{
+    background-image: url("https://t2.genius.com/unsafe/177x177/https%3A%2F%2Fimages.genius.com%2Fb31e009a5699acd7ab78d02c0f70ffba.3000x3000x1.jpg");
+    background-position: center;
+    background-size: contain;
+}
+#SNI3{
+    background-image: url("https://t2.genius.com/unsafe/266x177/https%3A%2F%2Fimages.genius.com%2Fa0574be63b966f33503954a159648c2b.3200x2133x1.jpg");
+    background-position: center;
+    background-size: contain;
+}
+#SNI4{
+    background-image: url("https://t2.genius.com/unsafe/315x177/https%3A%2F%2Fimages.genius.com%2F3fa3e34f55cd289d0a8323a91a33c8f5.1920x1080x1.png");
+    background-position: center;
+    background-size: contain;
 }

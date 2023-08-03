@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+    <!------------------ 
+        header section
+    -------------------->
     <header class="flex">
         <form action="" class="flex">
-            <input type="text" class="headerSearch" placeholder="Search lyrics & more">
+            <input type="text" class="headerSearch" placeholder="Search lyrics & more" />
             <i class="fa-solid fa-magnifying-glass"></i>
-
         </form>
-        <img src="./assets/asset 2.svg" alt="">
+        <img src="./assets/asset 2.svg" alt="" />
         <div class="headerButtons">
             <a href="">Sign Up</a>
             <a href="">Sign In</a>
         </div>
     </header>
+    <!---------------------- 
+        sub-header section
+    ----------------------->
     <div class="subHeader flex">
         <span>THE 50TH</span>
         <span>FEATURED</span>
@@ -33,78 +40,90 @@
             <i class="fa-brands fa-youtube"></i>
         </div>
     </div>
+    <!------------------ 
+        main section
+    -------------------->
     <main>
+        <!------------------- 
+            bigNews section
+         -------------------->
         <section class="flex container bigNews">
             <div class="bigNewsContent">
                 <div class="flex headingHr">
                     <span>NEWS</span>
-                    <!-- after -->
                 </div>
                 <h2>
-                    K-Pop Girl Group ITZY Aim To Forget Their Problems On New Song “CAKE”
+                    K-Pop Girl Group ITZY Aim To Forget Their Problems On New Song
+                    “CAKE”
                 </h2>
-                <p>
-                    It appears on their just-released mini-album ‘KILL MY DOUBT.’
-                </p>
+                <p>It appears on their just-released mini-album ‘KILL MY DOUBT.’</p>
                 <div>
-                    <span>
-                        by Ken Partridge
-                    </span>
-                    <span>
-                        /Aug 1 2023
-                    </span>
+                    <span> by Ken Partridge </span>
+                    <span> /Aug 1 2023 </span>
                 </div>
             </div>
-            <div class="bigNewsImage">
-                <!-- <img src="" alt=""> -->
-            </div>
+            <div class="bigNewsImage"></div>
         </section>
-        <section class="flex container smallNews">
-            <div class="smallNews">
-                <span>FEATURED</span>
-                <h3>Genius Community Playlist July 2023</h3>
-                <div>
-                    <span>by worstofalltime</span>
-                    <span>/Jul 31 2023</span>
+        <!--------------------- 
+            smallNews section
+         ---------------------->
+        <section class="flex container smalNews">
+            <div class="smallNewsContent">
+                <div class="smallNewsUpperContent">
+                    <span>FEATURED</span>
+                    <h3>Genius Community Playlist July 2023</h3>
                 </div>
-                <div class="smallNewsImage">
-                    <!-- <img src="" alt=""> -->
-                </div>
-            </div>
-            <div class="smallNews">
-                <span>FEATURED</span>
-                <h3>What’s Up Next: Here’s Every Album Dropping In August</h3>
-                <div>
-                    <span>by worstofalltime</span>
-                    <span>/Jul 31 2023</span>
-                </div>
-                <div class="smallNewsImage">
-                    <!-- <img src="" alt=""> -->
+                <div class="smallNewsLowerContent">
+                    <div>
+                        <span>by worstofalltime</span>
+                        <span>/Jul 31 2023</span>
+                    </div>
+                    <div class="smallNewsImage" id="SNI1"></div>
                 </div>
             </div>
-            <div class="smallNews">
-                <span>FEATURED</span>
-                <h3>Introducing V1V1D, The Newest Threat To Rap’s Ongoing Algorithm</h3>
-                <div>
-                    <span>by worstofalltime</span>
-                    <span>/Jul 31 2023</span>
+            <div class="smallNewsContent">
+                <div class="smallNewsUpperContent">
+                    <span>FEATURED</span>
+                    <h3>What’s Up Next: Here’s Every Album Dropping In August</h3>
                 </div>
-                <div class="smallNewsImage">
-                    <!-- <img src="" alt=""> -->
+                <div class="smallNewsLowerContent">
+                    <div>
+                        <span>by worstofalltime</span>
+                        <span>/Jul 31 2023</span>
+                    </div>
+                    <div class="smallNewsImage" id="SNI1"></div>
                 </div>
             </div>
-            <div class="smallNews">
-                <span>FEATURED</span>
-                <h3>Looking Back At The Top Hip-Hop Artist Of 2016 On Genius</h3>
-                <div>
-                    <span>by worstofalltime</span>
-                    <span>/Jul 31 2023</span>
+            <div class="smallNewsContent">
+                <div class="smallNewsUpperContent">
+                    <span>NEWS</span>
+                    <h3>
+                        Introducing V1V1D, The Newest Threat To Rap’s Ongoing Algorithm
+                    </h3>
                 </div>
-                <div class="smallNewsImage">
-                    <!-- <img src="" alt=""> -->
+                <div class="smallNewsLowerContent">
+                    <div>
+                        <span>by worstofalltime</span>
+                        <span>/Jul 31 2023</span>
+                    </div>
+                    <div class="smallNewsImage" id="SNI3"></div>
+                </div>
+            </div>
+            <div class="smallNewsContent">
+                <div class="smallNewsUpperContent">
+                    <span>NEWS</span>
+                    <h3>Looking Back At The Top Hip-Hop Artist Of 2016 On Genius</h3>
+                </div>
+                <div class="smallNewsLowerContent">
+                    <div>
+                        <span>by worstofalltime</span>
+                        <span>/Jul 31 2023</span>
+                    </div>
+                    <div class="smallNewsImage" id="SNI4"></div>
                 </div>
             </div>
         </section>
     </main>
 </body>
+
 </html>
