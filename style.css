@@ -1,73 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&family=Roboto&display=swap');
+
 /*==============
    CSS Reset
 ================*/
-*, ::after, ::before{
+*,
+::after,
+::before {
     box-sizing: border-box;
 }
-body{
+
+body {
     margin: 0px;
     padding: 0px;
 }
-section{
-    margin-top: 3rem!important;
+
+section {
+    margin-top: 3rem !important;
 }
+
 /*===================
    Utility Classes
 =====================*/
-.flex{
+.flex {
     display: flex;
 }
 
-.container{
+.container {
     max-width: 1210px;
     padding: 0 1rem;
     margin: 0 auto;
 }
-.headingHr{
+
+.headingHr {
     align-items: center;
 }
-.headingHr::after{
+
+.headingHr::after {
     content: '';
     flex-grow: 1;
     background-color: black;
     height: 2px;
 }
+
 /*==================
    Header Section
 ====================*/
-header{
+header {
     padding: 0.5rem 1rem;
     font-family: 'poppins', 'sans-serif';
     background-color: yellow;
     justify-content: space-between;
     align-items: center;
 }
-header img{
+
+header img {
     height: 1.2rem;
 }
-header form{
+
+header form {
     background-color: white;
     align-items: center;
     padding: 0px 0.3rem;
 }
-.headerSearch{
+
+.headerSearch {
     border: none;
     width: 13rem;
     padding: 0.3rem;
 }
-.headerSearch:focus{
+
+.headerSearch:focus {
     outline: none;
 }
-.headerSearch::placeholder{
+
+.headerSearch::placeholder {
     font-family: 'poppins', 'sans-serif';
     color: black;
 }
+
 /* change the placeholder color */
-.headerSearch:focus::placeholder{ 
+.headerSearch:focus::placeholder {
     color: #5c5c5cba;
 }
-.headerButtons > a{
+
+.headerButtons>a {
     color: black;
     text-decoration: none;
     margin-right: 0.8rem;
@@ -78,22 +94,25 @@ header form{
    Sub-Header Section
 ========================*/
 
-.subHeader{
+.subHeader {
     background-color: black;
     color: white;
     justify-content: center;
     font-weight: 500;
     padding: 0.8rem 0rem;
 }
-.subHeader > *{
+
+.subHeader>* {
     font-family: 'poppins', 'sans-serif';
     border-right: 1px solid white;
     padding: 0rem 2rem;
 }
-.subHeader :last-child{
+
+.subHeader :last-child {
     border-right: none;
 }
-.subHeaderSocial i{
+
+.subHeaderSocial i {
     margin-right: 1rem;
 }
 
@@ -101,18 +120,21 @@ header form{
    Big-News Section
 =======================*/
 
-.bigNews{
+.bigNews {
     height: 23rem;
     gap: 3rem;
     font-family: 'poppins', 'sans-serif';
 }
-.bigNewsContent{
+
+.bigNewsContent {
     width: 40%;
 }
-.bigNewsContent h2:hover{
+
+.bigNewsContent h2:hover {
     text-decoration: underline;
 }
-.bigNewsImage{
+
+.bigNewsImage {
     height: inherit;
     width: 60%;
     background-image: url("https://t2.genius.com/unsafe/470x470/https%3A%2F%2Fimages.genius.com%2F78c1eb2cc35919fdd0625dfa71966f87.1000x1000x1.jpg");
@@ -124,43 +146,147 @@ header form{
    Small-News Section
 ========================*/
 
-.smallNews{
+.smallNews {
     height: 10rem;
 }
-.smallNewsContent{
+
+.smallNewsContent {
+    font-family: 'poppins', 'sans-serif';
     width: 18rem;
     border-right: 2px solid black;
     padding: 0px 2rem;
 }
-.smallNewsContent:last-child{
+
+.smallNewsContent:last-child {
     border-right: none;
 }
-.smallNewsUpperContent{
+
+.smallNewsUpperContent {
     height: 15rem;
 }
-.smallNewsLowerContent{
 
-}
-.smallNewsImage{
+.smallNewsImage {
     height: 8rem;
 }
-#SNI1{
+
+#SNI1 {
     background-image: url("https://t2.genius.com/unsafe/315x177/https%3A%2F%2Fimages.genius.com%2Fd0a2820083c087269b88dc730a574ada.1920x1080x10.gif");
     background-position: center;
     background-size: contain;
 }
-#SNI2{
+
+#SNI2 {
     background-image: url("https://t2.genius.com/unsafe/177x177/https%3A%2F%2Fimages.genius.com%2Fb31e009a5699acd7ab78d02c0f70ffba.3000x3000x1.jpg");
     background-position: center;
     background-size: contain;
 }
-#SNI3{
+
+#SNI3 {
     background-image: url("https://t2.genius.com/unsafe/266x177/https%3A%2F%2Fimages.genius.com%2Fa0574be63b966f33503954a159648c2b.3200x2133x1.jpg");
     background-position: center;
     background-size: contain;
 }
-#SNI4{
+
+#SNI4 {
     background-image: url("https://t2.genius.com/unsafe/315x177/https%3A%2F%2Fimages.genius.com%2F3fa3e34f55cd289d0a8323a91a33c8f5.1920x1080x1.png");
     background-position: center;
     background-size: contain;
+}
+
+/*=================
+   Chart Section
+===================*/
+.chartHead {
+    font-family: 'poppins', 'sans-serif';
+    justify-content: space-between;
+    align-items: center;
+    height: 10rem;
+}
+
+.chartDropdown {
+    font-family: 'poppins', 'sans-serif';
+    border: 2px solid black;
+    padding: 0.7rem 0.5rem 0.7rem 0.7rem;
+    gap: 1rem;
+}
+
+.chartHead h1 {
+    font-family: 'poppins', 'sans-serif';
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+/*======================
+   Chart Leaderboard
+========================*/
+.songDetails {
+    width: 100%;
+    align-items: center;
+    font-family: 'poppins', 'sans-serif';
+    padding: 0.5rem 0;
+    border-bottom: 3px solid #e9e7e7;
+    font-size: 1.3rem;
+}
+.songDetails:hover{
+    background-color: #e9e7e7;
+}
+.albumCover {
+    width: 15%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.albumCover img {
+    height: 4rem;
+}
+
+.albumName {
+    width: 35%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+#lyrics {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #b5b5b5;
+}
+
+.singerName {
+    width: 20%;
+}
+
+.ratingsAndViews {
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+.views {
+    width: 23.5%;
+    justify-content: flex-end;
+}
+
+.fire {
+    gap: 1rem;
+    align-items: center;
+}
+
+.fire>i,
+.fire>span {
+    color: #f95e78;
+}
+
+.fire>span {
+    font-size: 0.8rem;
+}
+
+.ratings {
+    gap: 1rem;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.try {
+    height: 50vh;
 }
