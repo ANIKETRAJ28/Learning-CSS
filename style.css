@@ -42,6 +42,32 @@ section {
     height: 2px;
 }
 
+.btn{
+    padding: 0.75rem 1.4rem;
+    font-weight: 600;
+}
+:root{
+    --primary-color: white;
+    --secondary-color: black;
+}
+.btnPrimary{
+    background-color: var(--primary-color);
+    color: black;
+}
+.btnPrimary:hover{
+    background-color: var(--secondary-color);
+    border: 2px solid black;
+    color: white;
+}
+.btnSecondary{
+    background-color: var(--secondary-color);
+    border: 2px solid white;
+    color: white;
+}
+.btnSecondary:hover{
+    background-color: var(--primary-color);
+    color: black;
+}
 /*==================
    Header Section
 ====================*/
@@ -219,6 +245,9 @@ header form {
 /*======================
    Chart Leaderboard
 ========================*/
+.chartLeaderBoard{
+    margin-bottom: 2.5rem;
+}
 .songDetails {
     width: 100%;
     align-items: center;
@@ -232,12 +261,12 @@ header form {
 }
 .albumCover {
     width: 15%;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
 .albumCover img {
-    height: 4rem;
+    height: 3.5rem;
 }
 
 .albumName {
@@ -286,7 +315,83 @@ header form {
     align-items: center;
     font-size: 0.8rem;
 }
-
+.chartFoot{
+    justify-content: center;
+}
+.videoBox{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding-block: 5rem;
+    text-align: center;
+    padding-inline: 10rem;
+}
+.videoHeading{
+    flex-direction: column;
+    align-items: center;
+    font-family: 'poppins', 'sans-serif';
+}
+.videoHeading h1{
+    margin: 0px;
+    font-size: 5rem;
+}
+.videoHeading p{
+    margin-top: -1rem;
+    margin-bottom: 2.5rem;
+    color: yellow;
+}
+.videoThumbnail{
+    position: relative;
+    width: 80%;
+}
+.videoThumbnail img{
+    width: 100%;
+}
+.videoDetails{
+    width: 20%;
+    text-align: left;
+}
+.videoDetails h1{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+.videoDetails h4{
+    margin: 0px;
+    font-size: 1.2rem;
+}
+.videoDetails p{
+    font-size: 0.8rem;
+}
+.videoReleaseDetails span{
+    font-size: 0.7rem;
+}
+#dateOfRelease{
+    color: #a5a5a5;
+}
+.videoContent{
+    gap: 3rem;
+    margin-bottom: 2rem;
+    font-family: 'poppins', 'sans-serif';
+}
+.videoPlayBtn i{
+    font-size: 25px;
+    color: black;
+}
+.videoPlayBtn{
+    background-color: var(--primary-color);
+    position: absolute;
+    right: 1.5rem;
+    bottom: 2rem;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.videoDetailsTopMargine{
+    height: 2px;
+    margin: 0px;
+    background-color: var(--primary-color);
+}
 .try {
     height: 50vh;
 }
