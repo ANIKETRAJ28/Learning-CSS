@@ -79,78 +79,99 @@
     .smallNewsUpperContent {
         height: 10rem;
     }
+
     /*=======================
         Bottom-News Section
     =========================*/
-    .bottomNewsAllNews{
+    .bottomNewsAllNews {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-@media (max-width: 660px){
+
+@media (max-width: 660px) {
+
     /*======================
         Header Section
     ========================*/
-    .mobileButtons{
+    .mobileButtons {
         display: block;
     }
-    .headerButtons{
+
+    .headerButtons {
         display: none;
     }
-    .headerSearch{
+
+    .headerSearch {
         display: none;
     }
-    header form{
+
+    header form {
         background-color: transparent;
     }
+
     /*======================
         Sub-Header Section
     ========================*/
-    .subHeader{
+    .subHeader {
         display: none;
     }
+
     /*=================
         Chart Section
     ===================*/
-    .chartHead{
+    .chartHead {
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
         height: 11rem;
     }
-    .singerName, .ratingsAndViews, .fire, .views, #lyrics{
+
+    .singerName,
+    .ratingsAndViews,
+    .fire,
+    .views,
+    #lyrics {
         display: none;
     }
-    .albumName{
+
+    .albumName {
         margin-left: 2rem;
     }
-    .albumCover{
+
+    .albumCover {
         margin-left: 1rem;
     }
-    .albumCover span{
+
+    .albumCover span {
         margin: 1rem;
     }
+
     /*======================
        Small-News Section
     ========================*/
     .smallNewsContent {
         width: 100%;
     }
-    .smallNewsContent{
+
+    .smallNewsContent {
         border-right: none;
     }
-    .smallNewsHeadline::after{
+
+    .smallNewsHeadline::after {
         content: '';
         flex-grow: 1;
         background-color: black;
         height: 2px;
     }
-    .smallNewsHeadline{
+
+    .smallNewsHeadline {
         align-items: center;
     }
+
     /*=======================
         Bottom-News Section
     =========================*/
-    .bottomNewsAllNews{
+    .bottomNewsAllNews {
         grid-template-columns: repeat(1, 1fr);
     }
 }
