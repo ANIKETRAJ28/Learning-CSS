@@ -110,7 +110,6 @@ header form {
     color: black;
 }
 
-/* change the placeholder color */
 .headerSearch:focus::placeholder {
     color: #5c5c5cba;
 }
@@ -173,14 +172,12 @@ header form {
     background-position: center;
     background-size: contain;
 }
-
+.mobileButtons{
+    display: none;
+}
 /*======================
    Small-News Section
 ========================*/
-
-.smallNews {
-    height: 10rem;
-}
 
 .smallNewsContent {
     font-family: 'poppins', 'sans-serif';
@@ -238,7 +235,8 @@ header form {
 .chartDropdown {
     font-family: 'poppins', 'sans-serif';
     border: 2px solid black;
-    padding: 0.7rem 0.5rem 0.7rem 0.7rem;
+    padding: 0.7rem;
+    padding-right: 0.5rem;
     gap: 1rem;
 }
 
@@ -246,6 +244,7 @@ header form {
     font-family: 'poppins', 'sans-serif';
     font-size: 5rem;
     font-weight: 900;
+    margin: 0px;
 }
 
 /*======================
@@ -297,12 +296,14 @@ header form {
 
 .ratingsAndViews {
     width: 30%;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-right: 1rem;
 }
 
 .views {
-    width: 23.5%;
+    width: 30%;
     justify-content: flex-end;
+    margin-right: 1rem;
 }
 
 .fire {
