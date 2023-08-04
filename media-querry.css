@@ -79,6 +79,12 @@
     .smallNewsUpperContent {
         height: 10rem;
     }
+    /*=======================
+        Bottom-News Section
+    =========================*/
+    .bottomNewsAllNews{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 @media (max-width: 660px){
     /*======================
@@ -140,5 +146,11 @@
     }
     .smallNewsHeadline{
         align-items: center;
+    }
+    /*=======================
+        Bottom-News Section
+    =========================*/
+    .bottomNewsAllNews{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
