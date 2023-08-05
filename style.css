@@ -59,6 +59,7 @@ section {
 .btnPrimary {
     background-color: var(--primary-color);
     color: black;
+    border: 2px solid black;
 }
 
 .btnPrimary:hover {
@@ -297,17 +298,17 @@ header form {
 }
 
 .singerName {
-    width: 20%;
+    width: 30%;
 }
 
 .ratingsAndViews {
-    width: 30%;
+    width: 20%;
     justify-content: space-between;
     margin-right: 1rem;
 }
 
 .views {
-    width: 30%;
+    width: 20%;
     justify-content: flex-end;
     margin-right: 1rem;
 }
@@ -541,6 +542,162 @@ h3 {
     margin-top: 2rem;
 }
 
+/*====================
+   Community Section
+======================*/
+
+.communityHeader{
+    flex-direction: column;
+    align-items: center;
+    font-family: 'poppins', 'sans-serif';
+}
+.communityHeader h1{
+    margin: 0px;
+    font-size: 5rem;
+}
+.communityDescription{
+    width: 40rem;
+    text-align: center;
+}
+.communityDescription p{
+    margin-top: 0px;
+    color: #f95e78;
+}
+.communityBtns{
+    gap: 2.5rem;
+}
+.communityButtons{
+    width: 16.3rem;
+    height: 2.8rem;
+    align-items: center;
+    justify-content: center;
+}
+/*==========================
+   Community-Chart Section
+============================*/
+.community{
+    font-family: 'poppins', 'sans-serif';
+}
+.communityChartHead > div{
+    font-size: 0.8rem;
+}
+.communityChartHead{
+    margin-top: 3rem;
+    border-bottom: 3px solid #e9e7e7;
+}
+.communityBtns{
+    margin-top: 1.5rem;
+}
+.chartHeadRanking{
+    width: 10%;
+}
+.chartHeadScollars{
+    width: 70%;
+}
+.chartHeadIq{
+    width: 20%;
+    text-align: end;
+}
+/*==========================
+   Community-Chart Section
+============================*/
+.communityChartLeaderboard{
+    height: 4.5rem;
+    align-items: center;
+    font-size: 1.3rem;
+    padding: 0px;
+    border-bottom: 3px solid #e9e7e7;
+    gap: 5rem;
+}
+.communityChartLeaderboard:hover{
+    background-color: #e9e7e7;
+}
+.ChartLeaderboardSno{
+    width: 4%;
+    text-align: center;
+}
+.scollarName{
+    width: 76%;
+    align-items: center;
+    gap: 2rem;
+}
+#LBI1{
+    background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2F2f4efbb8d2031e656696b1f2e029c742");
+    border-radius: 50%;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-size: contain;
+}
+#LBI2{
+    background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2F98889dffcad21e9f4924b2daaad1f9e9");
+    border-radius: 50%;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-size: contain;
+}
+#LBI3{
+    background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Fa0150d3e9290909aa63499eb873b8c06.500x375x14.gif");
+    border-radius: 50%;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-size: contain;
+}
+#LBI4{
+    background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2F2d7713ae99fb2abdc059df5dcc620eee");
+    border-radius: 50%;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-size: contain;
+}
+#LBI5{
+    background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2F244055bf5ba902e2ae3f141200a0db04");
+    border-radius: 50%;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-size: contain;
+}
+#LBI6{
+    background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2Fa552d37ef4dfc8c4ba1e4aba7f8d122d");
+    border-radius: 50%;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-size: contain;
+}
+#LBI7{
+    background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2F2f4f610d8bee15712c6b99cba8d531c9");
+    border-radius: 50%;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-size: contain;
+}
+#LBI8{
+    background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2Fd5a87722a1553cd9c0d8b3e76caac45c");
+    border-radius: 50%;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-size: contain;
+}
+#LBI9{
+    background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Ff4f8f7a659178fa20a3089347739c383.375x375x1.jpg");
+    border-radius: 50%;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-size: contain;
+}
+#LBI10{
+    background-image:url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2F3c6af1b4975405542ba76125f2c23568");
+    border-radius: 50%;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-size: contain;
+}
+
+.scollarIq{
+    width: 20%;
+    color: #f95e78;
+    font-size: 0.8rem;
+    text-align: end;
+}
 .try {
     height: 50vh;
 }
