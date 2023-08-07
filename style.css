@@ -17,7 +17,9 @@ body {
 section {
     margin-top: 3rem !important;
 }
-
+html{
+    font-family: 'poppins', 'sans-serif';
+}
 /*===================
    Utility Classes
 =====================*/
@@ -84,7 +86,6 @@ section {
 ====================*/
 header {
     padding: 0.5rem 1rem;
-    font-family: 'poppins', 'sans-serif';
     background-color: yellow;
     justify-content: space-between;
     align-items: center;
@@ -111,7 +112,6 @@ header form {
 }
 
 .headerSearch::placeholder {
-    font-family: 'poppins', 'sans-serif';
     color: black;
 }
 
@@ -139,7 +139,6 @@ header form {
 }
 
 .subHeader>* {
-    font-family: 'poppins', 'sans-serif';
     border-right: 1px solid white;
     padding: 0rem 2rem;
 }
@@ -159,7 +158,6 @@ header form {
 .bigNews {
     height: 23rem;
     gap: 3rem;
-    font-family: 'poppins', 'sans-serif';
 }
 
 .bigNewsContent {
@@ -187,7 +185,6 @@ header form {
 ========================*/
 
 .smallNewsContent {
-    font-family: 'poppins', 'sans-serif';
     width: 18rem;
     border-right: 2px solid black;
     padding: 0px 2rem;
@@ -233,14 +230,12 @@ header form {
    Chart Section
 ===================*/
 .chartHead {
-    font-family: 'poppins', 'sans-serif';
     justify-content: space-between;
     align-items: center;
     height: 10rem;
 }
 
 .chartDropdown {
-    font-family: 'poppins', 'sans-serif';
     border: 2px solid black;
     padding: 0.7rem;
     padding-right: 0.5rem;
@@ -248,7 +243,6 @@ header form {
 }
 
 .chartHead h1 {
-    font-family: 'poppins', 'sans-serif';
     font-size: 5rem;
     font-weight: 900;
     margin: 0px;
@@ -264,7 +258,6 @@ header form {
 .songDetails {
     width: 100%;
     align-items: center;
-    font-family: 'poppins', 'sans-serif';
     padding: 0.5rem 0;
     border-bottom: 3px solid #e9e7e7;
     font-size: 1.3rem;
@@ -351,7 +344,6 @@ header form {
 .videoHeading {
     flex-direction: column;
     align-items: center;
-    font-family: 'poppins', 'sans-serif';
 }
 
 .videoHeading h1 {
@@ -405,7 +397,6 @@ header form {
 .videoContent {
     gap: 3rem;
     margin-bottom: 2rem;
-    font-family: 'poppins', 'sans-serif';
 }
 
 .videoPlayBtn i {
@@ -433,9 +424,6 @@ header form {
 /*=======================
    Bottom-News Section
 =========================*/
-.bottomNews {
-    font-family: 'poppins', 'sans-serif';
-}
 
 .bottomnewsHeading {
     flex-direction: column;
@@ -548,8 +536,8 @@ h3 {
 
 .communityHeader{
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    font-family: 'poppins', 'sans-serif';
 }
 .communityHeader h1{
     margin: 0px;
@@ -575,24 +563,23 @@ h3 {
 /*==========================
    Community-Chart Section
 ============================*/
-.community{
-    font-family: 'poppins', 'sans-serif';
-}
+
 .communityChartHead > div{
     font-size: 0.8rem;
 }
 .communityChartHead{
     margin-top: 3rem;
     border-bottom: 3px solid #e9e7e7;
+    gap: 5rem;
 }
 .communityBtns{
     margin-top: 1.5rem;
 }
 .chartHeadRanking{
-    width: 10%;
+    width: 4%;
 }
 .chartHeadScollars{
-    width: 70%;
+    width: 76%;
 }
 .chartHeadIq{
     width: 20%;
@@ -620,6 +607,9 @@ h3 {
     width: 76%;
     align-items: center;
     gap: 2rem;
+}
+.ellipses{
+    width: 50%;
 }
 #LBI1{
     background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2F2f4efbb8d2031e656696b1f2e029c742");
@@ -698,6 +688,53 @@ h3 {
     font-size: 0.8rem;
     text-align: end;
 }
-.try {
-    height: 50vh;
+/*=====================
+   sub-footer Section
+======================*/
+.subFooter{
+    border-bottom: 3px solid #232323;
+    padding-bottom: 2.5rem;
+}
+.subFooterSectionDivSub1, .subFooterSectionDivSub1, .subFooterSectionDiv2, .subFooterBottom1, .subFooterBottom2{
+    width: 50%;
+}
+.subFooterSectionDiv1{
+    width: 40%;
+}
+.subFooterSectionDiv1> h1{
+    margin-top: 0px;
+}
+.subFooterSectionDiv1 > i{
+    font-size: 1.6rem;
+    margin-right: 1rem;
+}
+.subFooterSectionDiv2{
+    justify-content: space-between;
+}
+.subFooterSectionDivSub1, .subFooterSectionDivSub2, .Bottom2Div{
+    width: 45%;
+}
+.subFooterBottom{
+    margin-top: 2rem;
+    font-size: 0.7rem;
+    color: #b5b5b5;
+}
+.subFooterSection, .Bottom2Div, .subFooterBottom2 {
+    justify-content: space-between;
+    text-align: start;
+}
+.subFooterSectionDiv2 li{
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+/*================
+   footer Section
+=================*/
+.footer{
+    font-size: 0.9rem;
+    padding-block: 2.5rem;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: flex-start;
+    justify-content: center;
 }

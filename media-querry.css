@@ -174,4 +174,56 @@
     .bottomNewsAllNews {
         grid-template-columns: repeat(1, 1fr);
     }
+    /*=======================
+        Community Section
+    =========================*/
+    .scollarIq, .chartHeadIq{
+        display: none;
+    }
+    .scollarName, .chartHeadScollars{
+        width: 90%;
+    }
+    .communityBtns{
+        flex-direction: column;
+    }
+    .communityHeader h1, .chartHead h1, .videoHeading h1, .bottomnewsHeading h1{
+        font-size: 2.5rem;
+    }
+    .communityDescription{
+        width: 16rem;
+    }
+    .communityDescription p{
+        font-size: 0.8rem;
+    }
+    .ellipses{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+@media (max-width: 400px){
+    .communityChartLeaderboard{
+        gap: 2rem;
+    }
+    .subFooter, .footer{
+        font-size: 0.8rem;
+    }
+    .subFooterSection{
+        flex-direction: column;
+        width: 100%;
+    }
+    .subFooterSectionDiv1, .subFooterSectionDiv2, .subFooterBottom{
+        width: 100%;
+        gap: 5rem;
+    }
+    .subFooterBottom2{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .subFooterBottom1{
+        display: none;
+    }
+    .Bottom2Div{
+        width: 40%;
+    }
 }
