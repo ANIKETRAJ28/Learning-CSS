@@ -174,56 +174,78 @@
     .bottomNewsAllNews {
         grid-template-columns: repeat(1, 1fr);
     }
+
     /*=======================
         Community Section
     =========================*/
-    .scollarIq, .chartHeadIq{
+    .scollarIq,
+    .chartHeadIq {
         display: none;
     }
-    .scollarName, .chartHeadScollars{
+
+    .scollarName,
+    .chartHeadScollars {
         width: 90%;
     }
-    .communityBtns{
+
+    .communityBtns {
         flex-direction: column;
     }
-    .communityHeader h1, .chartHead h1, .videoHeading h1, .bottomnewsHeading h1{
+
+    .communityHeader h1,
+    .chartHead h1,
+    .videoHeading h1,
+    .bottomnewsHeading h1 {
         font-size: 2.5rem;
     }
-    .communityDescription{
+
+    .communityDescription {
         width: 16rem;
     }
-    .communityDescription p{
+
+    .communityDescription p {
         font-size: 0.8rem;
     }
-    .ellipses{
+
+    .ellipses {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
     }
 }
-@media (max-width: 400px){
-    .communityChartLeaderboard{
+
+@media (max-width: 400px) {
+    .communityChartLeaderboard {
         gap: 2rem;
     }
-    .subFooter, .footer{
+
+    .subFooter,
+    .footer {
         font-size: 0.8rem;
     }
-    .subFooterSection{
+
+    .subFooterSection {
         flex-direction: column;
         width: 100%;
     }
-    .subFooterSectionDiv1, .subFooterSectionDiv2, .subFooterBottom{
+
+    .subFooterSectionDiv1,
+    .subFooterSectionDiv2,
+    .subFooterBottom {
         width: 100%;
         gap: 5rem;
     }
-    .subFooterBottom2{
+
+    .subFooterBottom2 {
         width: 100%;
         justify-content: space-between;
     }
-    .subFooterBottom1{
+
+    .subFooterBottom1 {
         display: none;
     }
-    .Bottom2Div{
+
+    .Bottom2Div {
         width: 40%;
     }
 }

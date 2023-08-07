@@ -17,9 +17,11 @@ body {
 section {
     margin-top: 3rem !important;
 }
-html{
+
+html {
     font-family: 'poppins', 'sans-serif';
 }
+
 /*===================
    Utility Classes
 =====================*/
@@ -534,61 +536,73 @@ h3 {
    Community Section
 ======================*/
 
-.communityHeader{
+.communityHeader {
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.communityHeader h1{
+
+.communityHeader h1 {
     margin: 0px;
     font-size: 5rem;
 }
-.communityDescription{
+
+.communityDescription {
     width: 40rem;
     text-align: center;
 }
-.communityDescription p{
+
+.communityDescription p {
     margin-top: 0px;
     color: #f95e78;
 }
-.communityBtns{
+
+.communityBtns {
     gap: 2.5rem;
 }
-.communityButtons{
+
+.communityButtons {
     width: 16.3rem;
     height: 2.8rem;
     align-items: center;
     justify-content: center;
 }
+
 /*==========================
    Community-Chart Section
 ============================*/
 
-.communityChartHead > div{
+.communityChartHead>div {
     font-size: 0.8rem;
 }
-.communityChartHead{
+
+.communityChartHead {
     margin-top: 3rem;
     border-bottom: 3px solid #e9e7e7;
     gap: 5rem;
 }
-.communityBtns{
+
+.communityBtns {
     margin-top: 1.5rem;
 }
-.chartHeadRanking{
+
+.chartHeadRanking {
     width: 4%;
 }
-.chartHeadScollars{
+
+.chartHeadScollars {
     width: 76%;
 }
-.chartHeadIq{
+
+.chartHeadIq {
     width: 20%;
     text-align: end;
 }
+
 /*==========================
    Community-Chart Section
 ============================*/
-.communityChartLeaderboard{
+.communityChartLeaderboard {
     height: 4.5rem;
     align-items: center;
     font-size: 1.3rem;
@@ -596,141 +610,174 @@ h3 {
     border-bottom: 3px solid #e9e7e7;
     gap: 5rem;
 }
-.communityChartLeaderboard:hover{
+
+.communityChartLeaderboard:hover {
     background-color: #e9e7e7;
 }
-.ChartLeaderboardSno{
+
+.ChartLeaderboardSno {
     width: 4%;
     text-align: center;
 }
-.scollarName{
+
+.scollarName {
     width: 76%;
     align-items: center;
     gap: 2rem;
 }
-.ellipses{
+
+.ellipses {
     width: 50%;
 }
-#LBI1{
+
+#LBI1 {
     background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2F2f4efbb8d2031e656696b1f2e029c742");
     border-radius: 50%;
     height: 3.5rem;
     width: 3.5rem;
     background-size: contain;
 }
-#LBI2{
+
+#LBI2 {
     background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2F98889dffcad21e9f4924b2daaad1f9e9");
     border-radius: 50%;
     height: 3.5rem;
     width: 3.5rem;
     background-size: contain;
 }
-#LBI3{
+
+#LBI3 {
     background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Fa0150d3e9290909aa63499eb873b8c06.500x375x14.gif");
     border-radius: 50%;
     height: 3.5rem;
     width: 3.5rem;
     background-size: contain;
 }
-#LBI4{
+
+#LBI4 {
     background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2F2d7713ae99fb2abdc059df5dcc620eee");
     border-radius: 50%;
     height: 3.5rem;
     width: 3.5rem;
     background-size: contain;
 }
-#LBI5{
+
+#LBI5 {
     background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2F244055bf5ba902e2ae3f141200a0db04");
     border-radius: 50%;
     height: 3.5rem;
     width: 3.5rem;
     background-size: contain;
 }
-#LBI6{
+
+#LBI6 {
     background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2Fa552d37ef4dfc8c4ba1e4aba7f8d122d");
     border-radius: 50%;
     height: 3.5rem;
     width: 3.5rem;
     background-size: contain;
 }
-#LBI7{
+
+#LBI7 {
     background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2F2f4f610d8bee15712c6b99cba8d531c9");
     border-radius: 50%;
     height: 3.5rem;
     width: 3.5rem;
     background-size: contain;
 }
-#LBI8{
+
+#LBI8 {
     background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2Fd5a87722a1553cd9c0d8b3e76caac45c");
     border-radius: 50%;
     height: 3.5rem;
     width: 3.5rem;
     background-size: contain;
 }
-#LBI9{
+
+#LBI9 {
     background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Ff4f8f7a659178fa20a3089347739c383.375x375x1.jpg");
     border-radius: 50%;
     height: 3.5rem;
     width: 3.5rem;
     background-size: contain;
 }
-#LBI10{
-    background-image:url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2F3c6af1b4975405542ba76125f2c23568");
+
+#LBI10 {
+    background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2F3c6af1b4975405542ba76125f2c23568");
     border-radius: 50%;
     height: 3.5rem;
     width: 3.5rem;
     background-size: contain;
 }
 
-.scollarIq{
+.scollarIq {
     width: 20%;
     color: #f95e78;
     font-size: 0.8rem;
     text-align: end;
 }
+
 /*=====================
    sub-footer Section
 ======================*/
-.subFooter{
+.subFooter {
     border-bottom: 3px solid #232323;
     padding-bottom: 2.5rem;
 }
-.subFooterSectionDivSub1, .subFooterSectionDivSub1, .subFooterSectionDiv2, .subFooterBottom1, .subFooterBottom2{
+
+.subFooterSectionDivSub1,
+.subFooterSectionDivSub1,
+.subFooterSectionDiv2,
+.subFooterBottom1,
+.subFooterBottom2 {
     width: 50%;
 }
-.subFooterSectionDiv1{
+
+.subFooterSectionDiv1 {
     width: 40%;
 }
-.subFooterSectionDiv1> h1{
+
+.subFooterSectionDiv1>h1 {
     margin-top: 0px;
 }
-.subFooterSectionDiv1 > i{
+
+.subFooterSectionDiv1>i {
     font-size: 1.6rem;
     margin-right: 1rem;
 }
-.subFooterSectionDiv2{
+
+.subFooterSectionDiv2 {
     justify-content: space-between;
 }
-.subFooterSectionDivSub1, .subFooterSectionDivSub2, .Bottom2Div{
+
+.subFooterSectionDivSub1,
+.subFooterSectionDivSub2,
+.Bottom2Div {
     width: 45%;
 }
-.subFooterBottom{
+
+.subFooterBottom {
     margin-top: 2rem;
     font-size: 0.7rem;
     color: #b5b5b5;
 }
-.subFooterSection, .Bottom2Div, .subFooterBottom2 {
+
+.subFooterSection,
+.Bottom2Div,
+.subFooterBottom2 {
     justify-content: space-between;
     text-align: start;
 }
-.subFooterSectionDiv2 li{
+
+.subFooterSectionDiv2 li {
     list-style-type: none;
     margin-bottom: 1rem;
 }
+
 /*================
    footer Section
 =================*/
-.footer{
+.footer {
     font-size: 0.9rem;
     padding-block: 2.5rem;
     flex-direction: column;
